@@ -1,0 +1,148 @@
+header{
+	width: 100%;
+	height: 100px;
+	background-color: green;
+	position: fixed;
+	margin: 0px;
+	top: 0;
+}
+
+header img{
+	width: 150px;
+	margin-left: 5%;
+
+}
+
+.menu h4{
+	float: right;
+	color: white;
+	
+}
+
+body{
+	margin: 0px;
+	
+}
+.container2{
+	margin-top: 100px;
+	width: 100%;
+	height: 533px;
+	background-image: url('img/bk2.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+
+
+}
+
+h3{
+ 	padding-left: 27%;
+ 	padding-top: 2%;
+ 	font-size: 2em;
+ 	text-shadow: black 0.1em 0.1em 0.2em;
+ }
+
+.social-icons{
+	padding-left: 35%;
+	padding-top: 4%;
+
+}
+
+.social-icon{
+	float: left;
+	margin: 5%;
+	font-size: 4em;
+	text-shadow: black 4px 4px 2px;
+}
+
+.social-icon:hover{
+	text-shadow: black 6px 6px 4px;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #dcdcdc;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 800px){
+
+h3{
+ 	padding-left: 20%;
+ 	padding-top: 2%;
+ 	font-size: 2em;
+ 	text-shadow: black 0.1em 0.1em 0.2em;
+ }
+
+}
+
+@media (max-width: 600px){
+
+h3{
+ 	padding-left: 20%;
+ 	padding-top: 2%;
+ 	font-size: 1.5em;
+ 	text-shadow: black 0.1em 0.1em 0.2em;
+ }
+
+.social-icons{
+	padding-left: 31%;
+	padding-top: 4%;
+
+}
+
+.social-icon{
+	float: left;
+	margin: 5%;
+	font-size: 3.2em;
+	text-shadow: black 4px 4px 2px;
+}
+
+
+}
+
+@media (max-width: 500px){
+
+h3{
+ 	padding-left: 24%;
+ 	padding-top: 2%;
+ 	font-size: 1em;
+ 	text-shadow: black 0.1em 0.1em 0.2em;
+ }
+
+.social-icons{
+	padding-left: 31%;
+	padding-top: 4%;
+
+}
+
+.social-icon{
+	float: left;
+	margin: 5%;
+	font-size: 2em;
+	text-shadow: black 4px 4px 2px;
+}
+
+header{
+	
+	height: 70px;
+	
+}
+
+header img{
+	width: 100px;
+	margin-left: 5%;
+
+}
+
+.container2{
+	margin-top: 70px;
+}
+
+}
+
