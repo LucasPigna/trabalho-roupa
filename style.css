@@ -16,12 +16,16 @@ header img{
 .menu h4{
 	float: right;
 	color: white;
-	
+
+}
+.fundoform{
+	padding-left: 10px;
+	padding-top: 10px;
 }
 
 body{
 	margin: 0px;
-	
+
 }
 .container2{
 	margin-top: 100px;
@@ -129,9 +133,9 @@ h3{
 }
 
 header{
-	
+
 	height: 70px;
-	
+
 }
 
 header img{
@@ -144,5 +148,6 @@ header img{
 	margin-top: 70px;
 }
 
-}
 
+
+}
