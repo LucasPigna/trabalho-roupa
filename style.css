@@ -1,6 +1,16 @@
+.logo{
+	font-weight: bold;
+}
 .menu h4{
 	float: right;
 	color: white;
+
+}
+
+h1{
+	text-align: center;
+	color: black;
+	font-weight: bold;
 
 }
 .fundoform{
@@ -12,35 +22,53 @@ body{
 	margin: 0px;
 }
 
-a{
+a{	
 	padding-top: 70px;
 }
-.container2{
+
+.container1{
 	margin-top: 50px;
-	width: 100%;
+	background-color: #ddd;
 	height: 533px;
-	background-image: url('img/bk2.jpg');
-	background-size: 100%;
+	padding-top: 50px;
 	background-repeat: no-repeat;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 
+}
+
+.container2{
+	height: 533px;
+	background-image: url('img/bk1.jpg');
+	
+	background-repeat: no-repeat;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 0;
+	padding-top: 70px;
 
 }
 
 h3{
- 	padding-left: 27%;
- 	padding-top: 2%;
+ 	
+ 	text-align: center;
  	font-size: 2em;
  	
  }
 
+.container3{
+	padding-bottom: 100px;
+ 	margin-bottom: 100px;
+ }
+
 .rede-social{
- 	text-shadow: black 0.1em 0.1em 0.2em;
+	margin-top: 0;
+ 	text-shadow: black 1px 1px 1px;
+
  }
 
 .social-icons{
-	padding-left: 35%;
+	padding-left: 30%;
 	padding-top: 4%;
 
 }
@@ -60,8 +88,26 @@ a:visited {
     color: white;
 }
 
-a:hover {
-    color: #dcdcdc;
+
+
+.btn-entrar{
+	margin-bottom: 200px;
+}
+
+.btn-contato{
+
+	border: 1px solid black;
+	margin-top: 100px;
+	font-weight: bold;
+	text-shadow: black 0px 0px 2px;
+	box-shadow: black 1px 1px 2px;
+	color: black;
+}
+
+.btn-contato:hover{
+	text-shadow: black 1px 1px 4px;
+	box-shadow: black 2px 2px 4px;
+	text-decoration: none;
 }
 
 /* RESPONSIVIDADE */
@@ -69,7 +115,7 @@ a:hover {
 @media (max-width: 800px){
 
 h3{
- 	padding-left: 20%;
+ 	
  	padding-top: 2%;
  	font-size: 2em;
  	
@@ -80,14 +126,15 @@ h3{
 @media (max-width: 600px){
 
 h3{
- 	padding-left: 20%;
+ 	text-align: center;
  	padding-top: 2%;
  	font-size: 1.5em;
  	
  }
 
 .social-icons{
-	padding-left: 31%;
+	
+	padding-left: 20%;
 	padding-top: 4%;
 
 }
@@ -105,14 +152,14 @@ h3{
 @media (max-width: 500px){
 
 h3{
- 	padding-left: 24%;
+ 	text-align: center;
  	padding-top: 2%;
- 	font-size: 1em;
+ 	font-size: 1.5em;
  	
  }
 
 .social-icons{
-	padding-left: 31%;
+	
 	padding-top: 4%;
 
 }
@@ -120,13 +167,11 @@ h3{
 .social-icon{
 	float: left;
 	margin: 5%;
-	font-size: 2em;
+	font-size: 5em;
 	text-shadow: black 4px 4px 2px;
 }
 
-.container2{
-	margin-top: 70px;
-}
+
 
 
 
