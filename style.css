@@ -7,6 +7,10 @@
 
 }
 
+.tech{
+	color: red;
+}
+
 h1{
 	text-align: center;
 	color: white;
@@ -18,18 +22,32 @@ h1{
 	padding-top: 10px;
 }
 
+h4{
+	text-align: center;
+}
+
 body{
 	margin: 0px;
 }
 
 a{	
 	padding-top: 70px;
+	color: white;
+}
+
+img{
+	margin-top: 30px;
+	width: 100%;
+}
+
+h5{
+	text-align: center;
 }
 
 .container1{
 	margin-top: 50px;
-	background-color: #007fff;
-	height: 533px;
+	background-color: #333;
+	height: 620px;
 	padding-top: 50px;
 	background-repeat: no-repeat;
 	color: white;
@@ -38,7 +56,7 @@ a{
 }
 
 .container2{
-	height: 533px;
+	height: 450px;
 	background-image: url('img/bk1.jpg');
 	
 	background-repeat: no-repeat;
@@ -56,9 +74,18 @@ h3{
  	
  }
 
+ .row {
+ 	margin-right: 0px;
+ 	margin-left: 0px;
+}
+
 .container3{
+	padding-top: 40px;
 	padding-bottom: 100px;
- 	margin-bottom: 100px;
+ 	margin-bottom: 0px;
+ 	background-color: #eee;
+ 	height: 480px;
+ 	border-bottom: 1px solid #444;
  }
 
 .rede-social{
@@ -88,37 +115,59 @@ a:visited {
     color: white;
 }
 
+.form-group {
+    margin-bottom: 10px;
+}
+
 a:hover{
 	text-decoration: none;
+	color: white;
 }
 
-
+.camera{
+	text-align: center;
+	height: 100%;
+}
 
 .btn-entrar{
-	margin-bottom: 200px;
+	margin-bottom: 40px;
+
 }
+
+.btn-entrar:hover{
+	background-color: #222;
+}
+
 
 .btn-contato{
 
+
 	border: 3px solid white;
-	margin-top: 100px;
+	margin-top: 50px;
 	font-weight: bold;
 	box-shadow: black 1px 1px 2px;
 	color: white;
 }
 .btn-primary{
-	background-color: #007fff;
+	background-color: #333;
+	    border-color: #fff;
 }
+
+.btn-primary:focus{
+	background-color: #333;
+}
+
+
 
 .btn-contato:hover{
 	box-shadow: black 3px 3px 4px;
-	background-color: #007fff;
+	background-color: #333;
 	border-color: white;
 	text-decoration: none;
 }
 
 .navbar-default {
-    background-color: #007fff;
+    background-color: #333;
     border-color: #e7e7e7;
 }
 
@@ -144,7 +193,21 @@ a:hover{
 
 
 .navbar-default .navbar-toggle {
-    border-color: #007fff;
+    border-color: #333;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    background-color: #333;
+    color: white;
+    padding-top: 15px;
+    margin-top: -4px;
+}
+
+.mapa{
+	height: 560px;
 }
 
 /* RESPONSIVIDADE */
@@ -183,6 +246,10 @@ h3{
 	text-shadow: black 4px 4px 2px;
 }
 
+a .social-icon:hover{
+	color: white;
+}
+
 
 }
 
@@ -209,7 +276,18 @@ h3{
 }
 
 
+}
+
+@media (max-width: 767px){
+
+	img{
+		width: 70%;
+		padding-left: 30%;
+	}
 
 
+	.btn-contato{
+		margin-top: 30px;
+	}
 
 }
