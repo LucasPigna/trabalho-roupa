@@ -9,7 +9,7 @@
 
 h1{
 	text-align: center;
-	color: black;
+	color: white;
 	font-weight: bold;
 
 }
@@ -28,7 +28,7 @@ a{
 
 .container1{
 	margin-top: 50px;
-	background-color: #ddd;
+	background-color: #007fff;
 	height: 533px;
 	padding-top: 50px;
 	background-repeat: no-repeat;
@@ -68,7 +68,7 @@ h3{
  }
 
 .social-icons{
-	padding-left: 30%;
+	padding-left: 35%;
 	padding-top: 4%;
 
 }
@@ -88,6 +88,10 @@ a:visited {
     color: white;
 }
 
+a:hover{
+	text-decoration: none;
+}
+
 
 
 .btn-entrar{
@@ -96,18 +100,51 @@ a:visited {
 
 .btn-contato{
 
-	border: 1px solid black;
+	border: 3px solid white;
 	margin-top: 100px;
 	font-weight: bold;
-	text-shadow: black 0px 0px 2px;
 	box-shadow: black 1px 1px 2px;
-	color: black;
+	color: white;
+}
+.btn-primary{
+	background-color: #007fff;
 }
 
 .btn-contato:hover{
-	text-shadow: black 1px 1px 4px;
-	box-shadow: black 2px 2px 4px;
+	box-shadow: black 3px 3px 4px;
+	background-color: #007fff;
+	border-color: white;
 	text-decoration: none;
+}
+
+.navbar-default {
+    background-color: #007fff;
+    border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ddd;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+
+.navbar-default .navbar-toggle {
+    border-color: #007fff;
 }
 
 /* RESPONSIVIDADE */
